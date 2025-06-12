@@ -8,13 +8,7 @@ This project is a real-time hand sign recognition system that identifies sign la
 - Detects hand signs for 0–9 and A–B
 - Uses ResNet50 CNN model
 - Built with Python, OpenCV, and TensorFlow
-- Preprocessing includes:
-  - Grayscale conversion
-  - Gamma correction
-  - CLAHE (Contrast Limited Adaptive Histogram Equalization)
-  - Gaussian blur
-  - Resizing and normalization
-  - Image augmentation for dataset enhancement
+- Preprocessingnt
 
 ## 🖥️ Tech Stack
 
