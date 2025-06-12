@@ -5,10 +5,10 @@ This project is a real-time hand sign recognition system that identifies sign la
 ## 🚀 Features
 
 - Real-time recognition via webcam
-- Detects hand signs for 0–9 and A–B
+- Detects hand signs for 0 and A–B
 - Uses ResNet50 CNN model
 - Built with Python, OpenCV, and TensorFlow
-- Preprocessingnt
+- Preprocessing
 
 ## 🖥️ Tech Stack
 
