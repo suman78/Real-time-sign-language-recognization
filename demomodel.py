@@ -13,7 +13,7 @@ IMG_SIZE = 224
 BATCH_SIZE = 32
 EPOCHS = 4
 train_dir = 'trainingdataset'
-test_dir = 'tesingdataset'
+test_dir = 'testingdataset'
 
 # ✅ Image preprocessing
 train_gen = ImageDataGenerator(rescale=1.0 / 255)
@@ -65,7 +65,7 @@ history = model.fit(
 )
 
 # ✅ Save the model
-model.save("mobilenet_sign_model.h5")
+model.save("mobilenet_sign_model2.h5")
 
 # ✅ Evaluate
 loss, accuracy = model.evaluate(test_data)
